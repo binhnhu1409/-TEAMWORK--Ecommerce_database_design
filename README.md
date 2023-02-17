@@ -1,32 +1,83 @@
-# Backend project
+# :memo: E-commerce database design
 
-This assignment requires teamwork. Your team has been assigned one of two topics:
+## Group member:
+- Anup Nepal
+- Quan Nguyen
+- Maksim Pasnitsenko
+- Nhu Nguyen
 
-1. Library management system
-Main features:
+## Tasks have been done
+1. Create ERD diagram for database 
+2. Design the API endpoints, following REST API architecture.
+3. Database queries using to create database, and CRUD operations.
 
-    - Users
-    - Books
-    - Authors
-    - Carts
-    - Optional: Reviews
-    - etc ...
+### ERD diagram for E-commerce database
+![ERD diagram](assets/images/ERD.PNG)
 
-2. E-Commerce Platform
-Main features:
+### Design REST API endpoints
+#### Products 
+```
+Get all products
+[GET] /api/products
 
-    - Users
-    - Products
-    - Categories
-    - Carts
-    - Optional: Reviews
-    - etc ...
+Get single product
+[GET] /api/products/{id}
 
----
+Create a product
+[POST] /api/products
 
-## Requirements
+Update a single product
+[PUT] /api/products/{id}
 
-*For team assignment, only 1 member in the team should fork the repo. Then, admin can invite other members to contribute in the same repo. Remember to have develop branch before merging to main. And each feature/schema/bug/issue should have it's own branch, and taken by only 1 member. Before making any new branch, make sure you run `git pull` to avoid the conflicts with the remote repo.*
+Delete a single product
+[DELETE] /api/products/{id}
+```
+#### Users
+```
+Get all products
+[GET] /api/users
 
-1. Design the API endpoints, following REST API architecture. Only design file needed (either in .txt or diagram, screenshot)
-2. Create ERD diagram for database
+Get a single user
+[GET] /api/users/{id}
+
+Create a user
+[POST] /api/users
+
+Update a user
+[PUT] /api/users/{id}
+
+Delete the user
+[DELETE] /api/users/{id}
+```
+#### Categories
+```
+Get all categories
+[GET] /api/categories
+
+Get a single category
+[GET] /api/categories/{id}
+
+Create a category
+[POST] /api/categories
+
+Update a category
+[PUT] /api/categories/{id}
+
+Delete a category
+[DELETE] /api/categories/{id}
+```
+#### Images
+```
+Get a single image
+[GET] /api/images/{id}
+
+Upload an image
+[POST] /api/images
+
+Update a single image
+[PUT] /api/images/{id}
+
+Delete a single image
+[DELETE] /api/images/{id}
+```
+
