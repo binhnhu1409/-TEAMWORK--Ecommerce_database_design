@@ -21,6 +21,9 @@ Get all products
 [GET] /api/products
 [GET] /api/products?offset={offset}&limit={limit}
 
+Sort all products based on {field} (can be first_name, last_name, etc.). It works with pagnation as well.
+[GET] /api/products?sortBy={field}&sortOrder={order}
+
 Search for a product / user by date
 [GET] /api/search/products/creation-date/{dateFrom}/{dateTwo}
 [GET] /api/search/products/creation-date/{dateFrom}
@@ -42,7 +45,9 @@ Delete a single product
 ```
 Get all users' names
 [GET] /api/users
-[GET] /api/users?sort={sortBy}
+
+Sort all users based on {field} (can be first_name, last_name, etc.)
+[GET] /api/users?sortBy={field}&sortOrder={order}
 
 Get a single user
 [GET] /api/users/{id}
@@ -79,6 +84,9 @@ Delete a category
 ```
 Get a single image
 [GET] /api/images/{id}
+
+Get all images from a specific products or category or user
+[GET] /api/images?group={group}
 
 Upload an image
 [POST] /api/images
