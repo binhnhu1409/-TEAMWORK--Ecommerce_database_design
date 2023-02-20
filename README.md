@@ -31,6 +31,7 @@ Update a single product
 
 Delete a single product
 [DELETE] /api/products/{id}
+
 ```
 #### Users
 ```
@@ -48,6 +49,7 @@ Update a user
 
 Delete the user
 [DELETE] /api/users/{id}
+
 ```
 #### Categories
 ```
@@ -79,5 +81,17 @@ Update a single image
 
 Delete a single image
 [DELETE] /api/images/{id}
+
 ```
+#### Extra routes
+```
+Search for a product by name
+[GET] /api/search/products/name/{name}
+
+Search for a product by date
+[GET] /api/search/products/creation-date/{dateFrom}/{dateTwo}
+[GET] /api/search/products/creation-date/{dateFrom}
+
+```
+
 
