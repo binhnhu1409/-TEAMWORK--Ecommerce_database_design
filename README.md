@@ -19,6 +19,11 @@
 ```
 Get all products
 [GET] /api/products
+[GET] /api/products?offset={offset}&limit={limit}
+
+Search for a product / user by date
+[GET] /api/search/products/creation-date/{dateFrom}/{dateTwo}
+[GET] /api/search/products/creation-date/{dateFrom}
 
 Get single product
 [GET] /api/products/{id}
@@ -35,8 +40,9 @@ Delete a single product
 ```
 #### Users
 ```
-Get all products
+Get all users' names
 [GET] /api/users
+[GET] /api/users?sort={sortBy}
 
 Get a single user
 [GET] /api/users/{id}
@@ -56,8 +62,9 @@ Delete the user
 Get all categories
 [GET] /api/categories
 
-Get a single category
+Get all products from a single category
 [GET] /api/categories/{id}
+[GET] /api/categories?offset={offset}&limit={limit}/{id}
 
 Create a category
 [POST] /api/categories
@@ -83,15 +90,4 @@ Delete a single image
 [DELETE] /api/images/{id}
 
 ```
-#### Extra routes
-```
-Search for a product by name
-[GET] /api/search/products/name/{name}
-
-Search for a product by date
-[GET] /api/search/products/creation-date/{dateFrom}/{dateTwo}
-[GET] /api/search/products/creation-date/{dateFrom}
-
-```
-
 
