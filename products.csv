@@ -1,0 +1,16 @@
+product_name;price;in_stock;description;category_id;
+TShirt;19.99;150;A comfortable and stylish T-shirt made from 100% cotton. Comes in various colors and sizes;0ac9a533-0b2a-4b1a-9dde-bbc8c4a89234
+Jeans;49.99;200;High-quality denim jeans that are durable and stylish. Available in various styles and sizes;0ac9a533-0b2a-4b1a-9dde-bbc8c4a89234
+Sneakers;79.99;120;Comfortable and fashionable sneakers for men and women. Available in various colors and sizes;0ac9a533-0b2a-4b1a-9dde-bbc8c4a89234
+Dishwashing tablet;39.99;200;A warm and cozy hoodie made from soft cotton. Comes in various colors and sizes;3429fab2-f8d4-4bd0-925e-061032289e36
+Backpack;29.99;180;A sturdy and spacious backpack for daily use. Comes with multiple pockets and compartments;0ac9a533-0b2a-4b1a-9dde-bbc8c4a89234
+Watch;99.99;250;A high-quality watch with a stylish design. Comes with a leather or metal strap;049b6719-7045-4826-bd1f-e4cb1d14acd6
+Sunglasses;24.99;175;A trendy and durable pair of sunglasses for both men and women. Available in various styles;e51227c4-6d68-4608-b3dc-a4fb05e478a9
+Wallet;14.99;110;A sleek and stylish wallet made from high-quality materials. Comes with multiple compartments;0ac9a533-0b2a-4b1a-9dde-bbc8c4a89234
+Phone Case;9.99;250;A protective and stylish case for your smartphone. Available for various models;049b6719-7045-4826-bd1f-e4cb1d14acd6
+Headphones;49.99;300;High-quality headphones with noise-canceling technology. Available in various colors;049b6719-7045-4826-bd1f-e4cb1d14acd6
+Laptop;699.99;25;A powerful and reliable laptop for work or play. Comes with the latest features and specifications;049b6719-7045-4826-bd1f-e4cb1d14acd6
+SpeakerToy;89.99;246;A high-quality speaker with clear and powerful sound. Can be used with various devices;9b1bd9c8-08c6-4a02-84c7-d4a5470d74c0
+Fitness Tracker;59.99;160;A smart and stylish fitness tracker that helps you monitor your health and fitness;0fe9db9f-d759-43b7-88a1-7690fd1b3b4f
+Gaming Chair;199.99;52;A comfortable and durable gaming chair for long gaming sessions. Comes with various features and colors;9b1bd9c8-08c6-4a02-84c7-d4a5470d74c0
+Air Purifier;99.99;26;A high-quality air purifier that helps you breathe clean and fresh air. Comes with various filters;049b6719-7045-4826-bd1f-e4cb1d14acd6
