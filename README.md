@@ -59,41 +59,6 @@
 ]
 ```
 
-<<<<<<< HEAD
-Create a product
-[POST] /api/v1/products
-
-Update a single product
-[PUT] /api/v1/products/{id}
-
-Delete a single product
-[DELETE] /api/v1/products/{id}
-
-Get all products
-[GET] /api/v1/products
-
-Pagination for products
-[GET] /api/v1/products?offset={offset}&limit={limit}
-
-Sort all products based on {field} (can be first_name, last_name, etc.). It works with pagnation as well.
-[GET] /api/v1/products?sortBy={field}&sortOrder={order}
-
-Search for a product / user by date
-[GET] /api/v1/products?creation-date={dateFrom}
-[GET] /api/v1/products?creation-date={dateFrom}
-
-Filter products by price
-[GET] /api/v1/products?price={price}
-
-Filter products by price range
-[GET] /api/v1/products?price_min={minPrice}&price_max={maxPrice}
-
-Filter by category
-[GET] /api/v1/products?category_id={id}
-
-```
-#### Users
-=======
 #### Example:
 The following request will send a GET request to get the first 100 products sorted by price, ascending, from 10 EUR to 100 EUR.
 
@@ -133,28 +98,8 @@ Return the updated product with the same response from [GET].
 	 },
 	 ...,
 ]
->>>>>>> main
 ```
 
-<<<<<<< HEAD
-Get a single user
-[GET] /api/v1/users/{id}
-
-Create a user
-[POST] /api/v1/users
-
-Update a user
-[PUT] /api/v1/users/{id}
-
-Delete the user
-[DELETE] /api/v1/users/{id}
-
-Authenticate user and generate access token
-[POST] /api/v1/auth
-
-```
-#### Categories
-=======
 ### Get all users
 **[GET]** /api/users
 
@@ -184,7 +129,6 @@ Authenticate user and generate access token
 	},
 	...,
 ]
->>>>>>> main
 ```
 
 ### Create a user
