@@ -1,0 +1,6 @@
+id,first_name,last_name,password,email,role,address,created_at,modified_at
+9b6ac5fb-d9b3-4197-b51e-2b97e168d6d2,Quan,Nguyen,changeme,quan.nguyen@gmail.com,admin,123 ABC,2023-02-21 16:15:16.744164+02,2023-02-21 16:15:16.744164+02
+7ac0f03c-82bd-48f3-8e44-8d7fdc40b1b0,John,Doe,changeme,john@mail.com,user,123 ABXTZC,2023-02-21 17:30:34.81354+02,2023-02-21 17:30:34.81354+02
+f830af04-4891-4740-8553-01017e662c95,James,Bongs,changeme,james.bongs@gmail.com,user,123 ABC,2023-02-21 17:30:34.81354+02,2023-02-21 17:30:34.81354+02
+a21658e7-3cc4-4181-a4ed-10fe556634cc,Harry,Potter,changeme,harry.potter@gmail.com,user,123 XZG,2023-02-21 17:30:34.81354+02,2023-02-21 17:30:34.81354+02
+47e1e406-b19c-41b5-baed-b366ff028f72,William,Shakespear,changeme,william.shakespear@ancientmail.old,admin,123 ABC,2023-02-21 17:30:34.81354+02,2023-02-21 17:30:34.81354+02
