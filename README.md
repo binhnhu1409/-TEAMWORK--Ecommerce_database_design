@@ -16,9 +16,7 @@
 
 # Design REST API endpoints
 <details>
-	<li><a href="https://github.com/mq003at/fs13-Teamwork/tree/
-  
-  #products">Product</a></li>
+	<li><a href="https://github.com/mq003at/fs13-Teamwork/tree/main#products">Product</a></li>
 	<li><a href="https://github.com/mq003at/fs13-Teamwork/tree/main#users">Users</a></li>
 	<li><a href="https://github.com/mq003at/fs13-Teamwork/tree/main#categories">Categories</a></li>
 	<li><a href="https://github.com/mq003at/fs13-Teamwork/tree/main#images">Images</a></li>
