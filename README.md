@@ -39,17 +39,17 @@ Sort all products based on {field} (can be first_name, last_name, etc.). It work
 [GET] /api/v1/products?sortBy={field}&sortOrder={order}
 
 Search for a product / user by date
-[GET] /api/v1/search/products/creation-date/{dateFrom}/{dateTwo}
-[GET] /api/v1/search/products/creation-date/{dateFrom}
+[GET] /api/v1/products?creation-date={dateFrom}
+[GET] /api/v1/products?creation-date={dateFrom}
 
 Filter products by price
-[GET] /api/v1/products/?price={price}
+[GET] /api/v1/products?price={price}
 
 Filter products by price range
-[GET] /api/v1/products/?price_min={minPrice}&price_max={maxPrice}
+[GET] /api/v1/products?price_min={minPrice}&price_max={maxPrice}
 
 Filter by category
-[GET] /api/v1/products/?category_id={id}
+[GET] /api/v1/products?category_id={id}
 
 ```
 #### Users
@@ -73,7 +73,7 @@ Delete the user
 [DELETE] /api/v1/users/{id}
 
 Authenticate user and generate access token
-[POST] /api/v1/auth/login
+[POST] /api/v1/auth
 
 ```
 #### Categories
